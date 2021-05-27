@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap Navigation Bar</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"
+    />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,400,500,700,900&amp;subset=chinese-traditional,japanese"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,400,500,700,900&subset=chinese-traditional,japanese');
+    </style>
+    <span
+      style="
+        font-family: 'Noto Sans TC', sans-serif;
+        font-weight: 100;
+        font-size: 1.7em;
+      "
+    >
+      <div
+        id="photoCarousel"
+        class="carousel slide vertical"
+        data-ride="carousel"
+      >
+        <!-- Indicators 瀏覽控制 -->
+        <ol class="carousel-indicators" style="margin-top: 50px">
+          <li
+            data-target="#photoCarousel"
+            data-slide-to="0"
+            class="active"
+            data-color="red"
+          ></li>
+          <li data-target="#photoCarousel" data-slide-to="1"></li>
+          <li data-target="#photoCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- 建立相片清單 -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img
+              src="https://i.ytimg.com/vi/j3YNKsgqQq4/mqdefault.jpg"
+              width="200"
+            />
+          </div>
+          <div class="item">
+            <img
+              src="https://memeprod.sgp1.digitaloceanspaces.com/user-wtf/1607612545635.jpg"
+              width="200"
+            />
+          </div>
+          <div class="item">
+            <img
+              src="https://i.playboard.app/p/AAUvwngmJVGq5cbsp3YETVSGcKP7aClq3UHiUCdK4Ug/default.jpg"
+              width="200  "
+            />
+          </div>
+        </div>
+        <!-- 上一張/下一張控制 -->
+        <a
+          class="left carousel-control"
+          href="#photoCarousel"
+          data-slide="prev"
+        >
+          <span class="glyphicon glyphicon-chevron-left"></span
+        ></a>
+        <a
+          class="right carousel-control"
+          href="#photoCarousel"
+          data-slide="next"
+        >
+          <span class="glyphicon glyphicon-chevron-right"></span
+        ></a>
+      </div>
+      <nav class="nav navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle"
+              data-toggle="collapse"
+              data-target="#myNavbar"
+            >
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">熊頭</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                
+      <li><a href="./408410487-2.html"><span class="glyphicon glyphicon-home"></span> 作業2</a></li>
+      <li><a href="./408410487-3.html"><span class="glyphicon glyphicon-heart"></span> 作業3</a></li>
+      <li><a href="./408410487-4.html"><span class="glyphicon glyphicon-picture"></span> 作業4</a></li>
+      <li><a href="./408410487-7.html"><span class="glyphicon glyphicon-picture"></span> 作業7</a></li> 
+      <li><a href="./408410487-8.html"><span class="glyphicon glyphicon-picture"></span> 作業8</a></li>          
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#"
+                  >Dropdown<span class="caret"></span
+                ></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">First</a></li>
+                  <li><a href="#">Second</a></li>
+                  <li><a href="#">Third</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </span>
+  </body>
+</html>
